@@ -1,0 +1,283 @@
+/*REGLA @ FUENTE*/
+@import url('https://fonts.googleapis.com/css2?family=Antic&family=Montserrat:wght@500&display=swap');
+
+/*media queries*/
+
+
+
+
+/*Selector universal*/
+*{
+    margin:0;
+    padding:0;
+}
+
+/*ROOT*/
+:root{
+    --color-rosa:#EAD2AC;
+    --color-celeste: #86A4B3;
+    --color-marron: #faedcd;
+    --fuente-principal:'Antic', sans-serif;
+}
+
+/*para sacar el REM valor 1 rem=22px*/
+html{
+    font-size: 22px;
+}
+
+
+/*BODY*/
+
+body{
+    font-family:'Antic', sans-serif;
+}
+
+
+
+/*HEADER*/
+header{
+    background-color: var(--color-rosa);
+    color: var(--color-celeste);
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    z-index:10;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--color-celeste);
+    font-family: 'Antic', sans-serif;
+
+}
+
+header nav ul li{
+    list-style-type: none;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    border:2px solid grey;
+    border-radius: 10px;
+    padding:2px;
+}
+
+
+
+header nav ul{
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top:1px;
+}
+
+header nav ul li a:hover{
+    color: grey;
+}
+
+.logo{
+    width:10%;
+}
+
+header div a{
+    display:flex;
+    justify-content: center;
+}
+
+
+
+
+/*FIN HEADER*/
+
+
+/*MAIN*/
+
+main{
+    padding:15rem 0 5rem 0;
+}
+
+
+h1{
+    color: var(--color-celeste);
+    font-weight:bold;
+    letter-spacing: 3px;
+    font-size:2rem;
+    font-family: 'Antic', sans-serif;
+    padding:0,5rem;
+    display:flex;
+    justify-content: center;
+    padding-bottom:4rem;
+}
+
+.main-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left:2rem;
+    margin-right:2rem;
+    gap:1rem;
+}
+
+
+
+#carouselExampleControls{
+    margin-left:5rem;
+    margin-right:5rem;
+    margin-bottom:5rem;
+}
+
+
+
+.d-blockw-100{
+    display:flex;
+    border-radius:10px;
+}
+
+
+.descripcion-container{
+    margin-left:4rem;
+    margin-right:4rem;
+    margin-top:5rem;
+    line-height:2;
+    text-align:center;
+    font-weight: bold;
+    font-size:1rem;
+    font-family: 'Antic', sans-serif;
+}
+
+
+
+
+/*FIN MAIN*/
+
+
+/*FOOTER*/
+footer{
+    background-color: var(--color-rosa);
+    color: var(--color-celeste);
+}
+
+footer nav ul li a{
+    text-decoration: none;
+    color:var(--color-celeste);
+    width:100%;
+}
+
+
+footer nav ul li{
+    list-style-type: none;
+    margin-top:2rem;
+}
+
+
+.logo-face{
+    width: 10%;
+    margin-left:25rem;
+}
+
+.logo-insta{
+    width:10%;
+    margin-right:25rem;
+}
+
+/*grid*/
+.rrss{
+    display:grid;
+    justify-content: center;
+    align-items:center;
+    grid-template-areas: "face insta"
+}
+
+.rrss-botton1{
+    grid-area: face;
+}
+
+.rrss-botton2{
+    grid-area: insta;
+}
+
+.despedida{
+    font-weight: bold;
+    font-family: 'Antic', sans-serif;
+    text-align: center;
+}
+
+/*position*/
+
+.telefono{
+    width:85%;
+}
+
+.telefono-fixed{
+    position:fixed;
+    bottom:1rem;
+    margin-left:1270px;
+}
+
+
+
+/*animacion*/
+.rrss-botton1 :hover{
+    transform:scale(2);
+    transition-duration:1s;
+}
+
+.rrss-botton2 :hover{
+    transform:scale(2);
+    transition-duration:1s;
+}
+/*FIN FOOTER*/
+
+
+
+
+
+
+
+
+/*BOOTSTRAP en Seccion Catalogo*/
+.card-body{
+    font-family:var(--fuente-principal);
+    background-color: var(--color-marron);
+}
+
+
+.btn,
+.btn-primary{
+    background-color: var(--color-rosa);
+    border-bottom:var(--color-celeste)
+}
+
+.card{
+    margin-left:2rem;
+    margin-right:2rem;
+    margin-top:1rem;
+}
+
+.card-group{
+    z-index:5;
+}
+
+
+
+/*SECCION QUIENES SOMOS*/
+.main-container-somos{
+    margin: 1rem 4rem 1rem 4rem;
+}
+
+.subtitulo{
+    color:var(--color-celeste);
+    text-align:center;
+    font-size: 1,5rem;
+    border: 2px solid var(--color-celeste);
+    border-radius:40px;
+    padding:1rem;
+    margin-top:3rem;
+}
+
+
+/*SECCION PREGUNTAS FRECUENTES*/
+.main-container-preguntas{
+    margin: 1rem 4rem 1rem 4rem;
+}
