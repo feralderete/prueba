@@ -1,0 +1,51 @@
+
+/*MAIN*/
+main{
+    padding:15rem 0 5rem 0;
+}
+
+h1{
+    color: #86A4B3;
+    font-weight:bold;
+    letter-spacing: 3px;
+    font-size:2rem;
+    font-family: 'Antic', sans-serif;
+    padding:0,5rem;
+    display:flex;
+    justify-content: center;
+    padding-bottom:4rem;
+}
+
+.main-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left:2rem;
+    margin-right:2rem;
+    gap:1rem;
+}
+
+
+
+#carouselExampleControls{
+    margin-left:5rem;
+    margin-right:5rem;
+    margin-bottom:5rem;
+}
+
+.d-blockw-100{
+    display:flex;
+    border-radius:10px;
+}
+
+
+.descripcion-container{
+    margin-left:4rem;
+    margin-right:4rem;
+    margin-top:5rem;
+    line-height:2;
+    text-align:center;
+    font-weight: bold;
+    font-size:1rem;
+    font-family: 'Antic', sans-serif;
+}

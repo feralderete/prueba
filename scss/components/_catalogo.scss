@@ -1,0 +1,23 @@
+/*BOOTSTRAP en Seccion Catalogo*/
+.card-body{
+    font-family:var(--fuente-principal);
+    background-color: var(--color-marron);
+}
+
+
+.btn,
+.btn-primary{
+    background-color: var(--color-rosa);
+    border-bottom:var(--color-celeste)
+}
+
+.card{
+    margin-left:2rem;
+    margin-right:2rem;
+    margin-top:1rem;
+}
+
+.card-group{
+    z-index:5;
+}
+

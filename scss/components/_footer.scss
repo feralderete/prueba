@@ -1,0 +1,75 @@
+
+footer{
+    background-color: #EAD2AC;
+    color: #86A4B3;
+
+    nav{
+        ul{
+            li{
+                list-style-type: none;
+                margin-top:2rem;
+                a{
+                    text-decoration: none;
+                    color:#86A4B3;
+                    width:100%;
+
+                }
+            }
+        }
+    }
+}
+
+.logo-face{
+    width: 5%;
+    margin-left:25rem;
+}
+
+.logo-insta{
+    width:5%;
+    margin-right:25rem;
+}
+
+/*grid*/
+.rrss{
+    display:grid;
+    justify-content: center;
+    align-items:center;
+    grid-template-areas: "face insta"
+}
+
+.rrss-botton1{
+    grid-area: face;
+}
+
+.rrss-botton2{
+    grid-area: insta;
+}
+
+.despedida{
+    font-weight: bold;
+    font-family: 'Antic', sans-serif;
+    text-align: center;
+}
+
+/*position*/
+
+.telefono{
+    width:60%;
+}
+
+.telefono-fixed{
+    position:fixed;
+    bottom:1rem;
+    margin-left:1270px;
+}
+
+/*animacion*/
+.rrss-botton1 :hover{
+    transform:scale(1.5);
+    transition-duration:1s;
+}
+
+.rrss-botton2 :hover{
+    transform:scale(1.5);
+    transition-duration:1s;
+}
